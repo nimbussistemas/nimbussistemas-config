@@ -1,9 +1,11 @@
 {
-  "name": "@nimbus/config",
+  "name": "@nimbussistemas/config",
   "version": "0.1.0",
   "author": "Evandro Junior <ecsb.junior@gmail.com>",
   "license": "ISC",
-  "scripts": {},
+  "scripts": {
+    
+  },
   "dependencies": {
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
