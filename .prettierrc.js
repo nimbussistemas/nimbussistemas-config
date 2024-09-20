@@ -8,4 +8,5 @@ module.exports = {
   trailingComma: 'all',
   singleAttributePerLine: true,
   endOfLine: 'lf',
+  plugins: ['prettier-plugin-fort-imports'],
 };

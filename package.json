@@ -1,15 +1,21 @@
 {
   "name": "@nimbussistemas/config",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "author": "Evandro Junior <ecsb.junior@gmail.com>",
   "license": "ISC",
   "scripts": {
-    
+    "pub": "npm publish --public"
   },
   "dependencies": {
-    "eslint": "8.48.0",
-    "eslint-config-next": "13.4.19",
-    "eslint-plugin-prettier": "^5.0.1",
-    "prettier": "^3.0.3"
+    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/parser": "^8.6.0",
+    "eslint": "^8.48.0",
+    "eslint-config-next": "^14.2.12",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "prettier-plugin-fort-imports": "^0.4.6",
+    "typescript-eslint": "^8.6.0"
   }
 }
