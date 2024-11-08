@@ -1,6 +1,6 @@
 {
   "name": "@nimbussistemas/config",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Evandro Junior <ecsb.junior@gmail.com>",
   "license": "ISC",
   "scripts": {
@@ -15,7 +15,7 @@
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "prettier": "^3.3.3",
-    "prettier-plugin-fort-imports": "^0.4.6",
+    "prettier-plugin-fort-imports": "^0.4.7",
     "typescript-eslint": "^8.6.0"
   }
 }
