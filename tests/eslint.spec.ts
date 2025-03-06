@@ -2,12 +2,14 @@ import path from 'node:path';
 import { ESLint } from 'eslint';
 import fs from 'node:fs/promises';
 import { it, expect, describe } from 'vitest';
+import { next, node } from '../eslint.config.mjs';
 
 describe('eslint', () => {
   describe('next', () => {
     const eslint = new ESLint({
       cwd: process.cwd(),
-      overrideConfigFile: path.join(process.cwd(), '.eslint-next.config.mjs'),
+      overrideConfig: next.configs.recommended as never,
+      // overrideConfigFile: path.join(process.cwd(), 'eslint.config.mjs'),
     });
 
     describe('prettier', () => {
@@ -155,7 +157,8 @@ describe('eslint', () => {
   describe('node', () => {
     const eslint = new ESLint({
       cwd: process.cwd(),
-      overrideConfigFile: path.join(process.cwd(), '.eslint-node.config.mjs'),
+      overrideConfig: node.configs.recommended as never,
+      // overrideConfigFile: path.join(process.cwd(), 'eslint.config.mjs'),
     });
 
     describe('prettier', () => {
