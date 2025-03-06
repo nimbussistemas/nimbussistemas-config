@@ -1,0 +1,3 @@
+const noParametersOrReturn: Function = () => {};
+
+noParametersOrReturn();
